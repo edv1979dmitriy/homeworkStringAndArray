@@ -9,7 +9,7 @@ public class Main {
         System.out.println(" Итоговый отчёт за год: ");
         System.out.println(" Сумма всех продаж: " + summa);
 
-        long averageSum = service.averageSumSalesMonths(sales);
+        double averageSum = service.averageSumSalesMonths(sales);
         System.out.println(" Средняя сумма продаж в месяц: " + averageSum);
 
         int numberMonthsMax = service.numberMonthsMaxSumSales(sales);
